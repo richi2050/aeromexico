@@ -19,6 +19,15 @@ const useStyles = makeStyles({
         flexDirection: 'column',
         alignItem:'center'
     },
+    gridT:{
+        
+        borderBottom:0,
+        borderTop: 1, 
+        borderColor: 'gray',
+        borderStyle: 'solid',
+        borderRight:0,
+        borderLeft:0,
+    },
 });
 
 const Vuelos = (props) => {
